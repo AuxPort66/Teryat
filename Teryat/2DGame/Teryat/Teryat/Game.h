@@ -1,0 +1,44 @@
+#ifndef _GAME_INCLUDE
+#define _GAME_INCLUDE
+
+
+#include "Scene.h"
+
+#define SCREEN_WIDTH 576
+#define SCREEN_HEIGHT 576
+
+class Game {
+
+public:
+	Game() {}
+	
+	static Game &instance()
+	{
+		static Game G;
+	
+		return G;
+	}
+	
+	void init();
+	bool update(int deltaTime);
+	void changescene(int scene);
+	void render();
+	
+	// Input callback methods
+	void keyPressed(int key);
+	void keyReleased(int key);
+	void specialKeyPressed(int key);
+	void specialKeyReleased(int key);
+	
+	bool getKey(int key) const;
+	bool getSpecialKey(int key) const;
+	Scene scene;	// Scene to render
+
+private:
+	bool bPlay;                       // Continue to play game?
+	bool keys[256], specialKeys[256]; // Store key states so that 
+	                                  // we can have access at any time
+};
+#endif // _GAME_INCLUDE
+
+
