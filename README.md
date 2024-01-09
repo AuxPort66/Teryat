@@ -3,8 +3,8 @@ Teryat is a small demo of a **ambidextrous platform game** created in **C++**, w
 Escape from a dungeon designed entirely around this mechanic, as you **separately control the head and body** of our zombie tired of his work in the dungeon.
 
 <p align="center">
-   <img src="https://github.com/AuxPort66/Teryat/assets/93783740/eb621d8b-529a-4726-b4a8-c7c4c35ff586" align="center" width="290" height="290">
-   <img src="https://github.com/AuxPort66/Teryat/assets/93783740/89ca036b-336a-4875-b319-91659e23ea32" align="center" width="290" height="290">
+   <img src="https://github.com/AuxPort66/Teryat/assets/93783740/eb621d8b-529a-4726-b4a8-c7c4c35ff586" align="center" width="240" height="240">
+   <img src="https://github.com/AuxPort66/Teryat/assets/93783740/89ca036b-336a-4875-b319-91659e23ea32" align="center" width="240" height="240">
 </p>
 
 ## Controls:
