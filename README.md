@@ -1,3 +1,4 @@
+## TERYAT
 Teryat is a small demo of a **ambidextrous platform game** created in **C++**, where I wanted to implement a fun mechanic that would limit the double jump so well known in this type of games.
 Escape from a dungeon designed entirely around this mechanic, as you **separately control the head and body** of our zombie tired of his work in the dungeon.
 
